@@ -1,0 +1,16 @@
+.spinning-image {
+    animation: spin 2s linear infinite;
+    display: block;
+    margin: 50px auto;
+    width: 200px;
+    height: auto;
+}
+
+@keyframes spin {
+    from {
+        transform: rotate(0deg);
+    }
+    to {
+        transform: rotate(360deg);
+    }
+}
